@@ -93,7 +93,6 @@ A->User: Done')
   -10 mul 10 LL\n\
   stroke\n\
   % text x y direction length\n\
-  % fill the background of the text with white\n\
   3 index 3 index moveto %move to x,y\n\
   % text x y direction length\n\
   2 copy\n\
@@ -159,6 +158,8 @@ A->User: Done')
   2 setlinewidth\n\
   1 setlinejoin\n\
   1 setlinecap\n\
+
+
   newpath\n\
   4 2 roll L\n\
   stroke\n\
